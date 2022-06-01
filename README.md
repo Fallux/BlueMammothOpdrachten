@@ -1,2 +1,2 @@
 # 06-01-2022
-# Hier komen 2 folders te staan. De eerste heet 'frontEnd' en de andere heet 'backEnd' veel plezier - R
+# Here will be 2 folders displayed. The first one is named 'frontEnd' and the is named 'backEnd' enjoy - R
