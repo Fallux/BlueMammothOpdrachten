@@ -1,1 +1,2 @@
-# 06-01-2022 /n # Hier komen 2 folders staan. De eerste heet 'frontEnd' en de andere heet 'backEnd' veel plezier - R
+# 06-01-2022
+# Here will be 2 folders displayed. The first one is named 'frontEnd' and the is named 'backEnd' enjoy - R
