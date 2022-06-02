@@ -32,4 +32,5 @@ h3 {
 
 .sidebar {
     width: 25%;
+    float: right;
 }
