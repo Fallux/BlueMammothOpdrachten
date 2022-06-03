@@ -12,6 +12,7 @@
  </head>
  <body>
      <input type="text">
+     <input type="submit">
  
 <?php
 // Maak een mammoet class
@@ -21,9 +22,9 @@ class Mammoet {
     public $eat = "eating";
 
     public function __construct(){
-        $this->sleep = $sleep;
-        $this->play = $play;
-        $this->eat = $eat;
+        echo $this->sleep . "<br>";
+        echo $this->play . "<br>"; 
+        echo $this->eat . "<br>"; 
     }
 }
 
