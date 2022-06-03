@@ -1,6 +1,19 @@
+
+<!-- // Backend opdracht Blue Mammoth -->
 <?php
-// Backend opdracht Blue Mammoth
-//
+
+?>
+ <html>
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <input type="text">
+ 
+<?php
 // Maak een mammoet class
 class Mammoet {
     public $sleep = "sleeping";
@@ -15,7 +28,11 @@ class Mammoet {
 }
 
 $obj = new Mammoet();
-// 
+
+?>
+</body>
+</html>
+<!-- // 
 // Bij het aanmaken van een mammoet moet je een naam kunnen geven. De naam kan daarna niet meer veranderd worden.
 //
 // Een mammoet kan slapen, spelen en eten.
@@ -35,4 +52,4 @@ $obj = new Mammoet();
 // Alle code moet in het engels zijn
 //
 // Bonuspunten (Niet vereist)
-// Je code laten test door middel van unit testing
+// Je code laten test door middel van unit testing -->
