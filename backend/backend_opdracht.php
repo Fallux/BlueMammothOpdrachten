@@ -14,7 +14,7 @@ class Mammoet {
     }
 }
 
-$obj = Mammoet();
+$obj = new Mammoet();
 // 
 // Bij het aanmaken van een mammoet moet je een naam kunnen geven. De naam kan daarna niet meer veranderd worden.
 //
