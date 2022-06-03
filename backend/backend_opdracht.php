@@ -3,9 +3,9 @@
 //
 // Maak een mammoet class
 class Mammoet {
-    public $sleep;
-    public $play;
-    public $eat;
+    public $sleep = "sleeping";
+    public $play = "playing";
+    public $eat = "eating";
 
     public function __construct(){
         $this->sleep = $sleep;
