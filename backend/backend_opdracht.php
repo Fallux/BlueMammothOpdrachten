@@ -11,16 +11,21 @@
      <title>Document</title>
  </head>
  <body>
+     <!-- bar were you can type on -->
      <input type="text">
+     <!-- button to submit -->
      <input type="submit">
  
 <?php
 // Maak een mammoet class
+// oop variation 
 class Mammoet {
+    //setting the variables publicly while defining it with string
     public $sleep = "sleeping";
     public $play = "playing";
     public $eat = "eating";
 
+    // calling a public function construct 
     public function __construct(){
         echo $this->sleep . "<br>";
         echo $this->play . "<br>"; 
@@ -28,6 +33,7 @@ class Mammoet {
     }
 }
 
+//returning the class
 $obj = new Mammoet();
 
 ?>
