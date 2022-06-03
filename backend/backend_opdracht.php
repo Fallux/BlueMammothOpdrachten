@@ -1,22 +1,6 @@
 
 <!-- // Backend opdracht Blue Mammoth -->
 <?php
-
-?>
- <html>
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
- </head>
- <body>
-     <!-- bar were you can type on -->
-     <input type="text">
-     <!-- button to submit -->
-     <input type="submit">
- 
-<?php
 // Maak een mammoet class
 // oop variation 
 class Mammoet {
@@ -32,11 +16,31 @@ class Mammoet {
         echo $this->eat . "<br>"; 
     }
 }
-
-//returning the class
-$obj = new Mammoet();
-
+    $obj = new Mammoet();
 ?>
+ <html>
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <!-- bar were you can type on -->
+     <input type="text" name="name">
+     <!-- button to submit -->
+     <input type="submit" value="submit" name="submit">
+     <br>
+    <div>
+<?php    
+       
+            if (isset($_POST['submit'])) {
+                echo $_POST['name'];
+          }
+        
+//returning the class
+?>
+</div>
 </body>
 </html>
 <!-- // 
