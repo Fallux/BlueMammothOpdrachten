@@ -2,6 +2,19 @@
 // Backend opdracht Blue Mammoth
 //
 // Maak een mammoet class
+class Mammoet {
+    public $sleep;
+    public $play;
+    public $eat;
+
+    public function __construct(){
+        $this->sleep = $sleep;
+        $this->play = $play;
+        $this->eat = $eat;
+    }
+}
+
+$obj = Mammoet();
 // 
 // Bij het aanmaken van een mammoet moet je een naam kunnen geven. De naam kan daarna niet meer veranderd worden.
 //
