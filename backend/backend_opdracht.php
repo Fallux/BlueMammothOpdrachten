@@ -1,6 +1,15 @@
 
 <!-- // Backend opdracht Blue Mammoth -->
 <?php
+$host = 'localhost';
+$username = 'root';
+$password = '';
+
+$connect = mysqli_connect($host, $username, $password);
+if (!$connect) {
+    die('connecting fail: ' . mysqli_connect_error());
+}
+echo 'database is connected successfully!!';
 // Maak een mammoet class
 // oop variation 
 class Mammoet {
@@ -27,20 +36,24 @@ class Mammoet {
  </head>
  <body>
      <!-- bar were you can type on -->
+     <form action="" method="post">
      <input type="text" name="name">
      <!-- button to submit -->
      <input type="submit" value="submit" name="submit">
      <br>
     <div>
 <?php    
-       
             if (isset($_POST['submit'])) {
-                echo $_POST['name'];
+                if (isset($_POST['submit']) !='') {
+                    echo $_POST['name'];
+                }
+                
           }
         
 //returning the class
 ?>
 </div>
+</form>
 </body>
 </html>
 <!-- // 
